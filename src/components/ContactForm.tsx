@@ -56,11 +56,11 @@ export default function ContactForm({ onSuccess, showToast }: ContactFormProps) 
     window.setTimeout(() => setSent(false), 4000);
 
     // For real deployment, replace the above with:
-    // await fetch('https://formspree.io/f/YOUR_ID', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify(form),
-    // });
+       await fetch('https://formspree.io/f/xaewodpw', {
+       method: 'POST',
+       headers: { 'Content-Type': 'application/json' },
+       body: JSON.stringify(form),
+    });
     void subject;
     void body;
   };
