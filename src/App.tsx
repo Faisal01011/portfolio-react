@@ -90,7 +90,6 @@ export default function App() {
           <a href="https://github.com/Faisal01011" target="_blank" rel="noopener noreferrer">
             github.com/Faisal01011
           </a>{' '}
-          · React + Vite portfolio
         </footer>
       </div>
       <Modal project={activeProject} onClose={handleClose} />
